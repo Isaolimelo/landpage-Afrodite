@@ -1,0 +1,397 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Logo Sabedoria do Olimpo */
+header img {
+    width: 6vw;
+    animation: fadeIn;
+    animation-duration: 700ms;
+}
+
+#banner-1 {
+    display: flex;
+    background-image: linear-gradient(140deg, #2b0f2a 70%, #E059B2 130%); 
+    height: calc(100vh - 15vh);
+    position: relative;
+}
+
+/* Esta é a imagem do banner 1 */
+#banner-1 img {
+    width: 700px;
+    position: absolute;
+    bottom: -100px;
+    right: 0;
+    transform: scale(1.1,1.1);
+    transform-origin: center right;
+    z-index: 1;
+    animation: tada;
+    animation-duration: 2500ms;
+}
+
+#left-banner {
+    margin: 0 100px;
+    align-items: center;
+    color: white;
+}
+#left-banner h2 {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 28px;
+    font-size: 50px;
+    margin-top: 100px;
+}
+#left-banner p {
+    margin-top: 30px;
+    width: 500px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+#left-banner a {
+    width: fit-content;
+    background-color: #D63A7D;
+    color: white;
+    margin-top: 30px;
+    display: block;
+    font-size: 18px;
+    border-radius: 20px;
+    padding: 14px 26px;
+}
+
+#reviews {
+    background-color: #E3BFDF;
+    padding-bottom: 50px;
+}
+
+#reviews h2 {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 28px;
+    padding-top: 60px;
+    text-align: center;
+}
+
+#reviews ul {
+    display: flex;
+    padding: 30px;
+    gap: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#reviews ul li {
+    animation: shakeX;
+    animation-duration: 3s;
+    width:50%;
+    background-color: white 10%;
+    border: 1px solid #2b0f2a;
+    color: #444;
+    font-size: 15px;
+    line-height: 20px;
+    border-radius: 25px;
+    padding: 35px;
+    font-weight: none;
+}
+
+#reviews ul li h5 {
+    font-size: 18px;
+    margin-top: 20px;
+    font-family: 'Homemade Apple', cursive;
+    color: #D63A7D;
+}
+
+#reviews a {
+    width: fit-content;
+    background-color: #00D6BC;
+    padding: 14px 26px;
+    border-radius: 20px;
+    color: #ffffff;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    display: block;
+}
+
+#introduction {
+    background-image: linear-gradient(240deg, #2b0f2a 70%, #E059B2 130%);
+    display: flex;
+}
+
+#introduction img {
+    animation: zoomIn;
+    animation-duration: 900ms;
+    height: 700px;
+    position: absolute;
+    padding: 50px 0;
+    transform-origin: left right;
+    bottom: -1860px;
+    left: 200;
+    transform: scale(1.2,1.2);
+
+}
+
+#introduction h2 {
+    padding-top: 40px;
+    font-family: 'Homemade apple', cursive;
+    font-size: 28px;
+    color: #CAB5D7;
+    margin-left: 530px;
+}
+
+#introduction p {
+    margin-left: 430px;
+    padding:  40px 90px;
+    color: #CAB5D7;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+#benefits {
+    background-color: #cff1e8;
+    padding: 90px 80px;
+}
+
+/* Aqui é o titulo dos benefícios */
+#title-benefits {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 28px;
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+#benefits ul {
+    width: 820px;
+    margin: 0 auto;
+}
+
+#benefits ul li {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#benefits ul li img{
+    display: flex;
+    width: 35px;
+    height: 35px;
+    position: relative;
+    animation: swing;
+    animation-duration: 5s;
+}
+
+#benefits h4 {
+    width: 820px;
+    margin: 0 auto;
+    padding: 20px 10px;
+    font-size: 16px;
+}
+
+#benefits a {
+    width: fit-content;
+    background-color: #D63A7D;
+    padding: 14px 26px;
+    border-radius: 20px;
+    color: #ffffff;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    display: block;
+}
+
+#persona {
+    background-color: #E3BFDF;
+    
+}
+
+#persona ul {
+    padding: 30px;
+    gap: 30px;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+}
+
+#persona ul li {
+    width:50%;
+    background-color: white 10%;
+    border: 1px solid #D63A7D;
+    color: #2b0f2a;
+    font-size: 15px;
+    line-height: 20px;
+    border-radius: 25px;
+    padding: 35px;
+    font-weight: none;
+}
+
+.image-persona {
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin: 0 auto;
+}
+
+#persona ul li h3 {
+    padding: 12px 0;
+}
+
+#persona ul li p {
+    margin: 12px 0;
+    line-height: 20px;
+}
+
+#persona ul li h5 {
+    background-color: #e4aedd;
+    border-radius: 25px;
+    padding: 20px;
+    font-size: 14px;
+    font-weight:normal;
+}
+
+#persona h2 {
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 28px;
+    width: 800px;
+    padding-top: 60px;
+}
+
+#mockup-ebook {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#mockup-ebook img {
+    width: 100%;
+    height: auto;
+}
+
+#mockup-ebook #livro-aberto-flutuando {
+    width: auto;
+    height: 100%;
+    position: absolute;
+    top: 50vh;
+    left: -300px;
+}
+
+#quem-somos {
+    display: flex;
+    align-items: center;
+    padding: 70px 50px;
+    background-color: #8E5D2E;
+    gap: 40px;
+    color: #ffffff;
+    
+}
+
+#quem-somos div img{
+    /* border: 1px solid red; */
+    align-items: center;
+    width: 400px;
+    border-radius: 300px;
+    animation: pulse;
+    animation-duration: 3s;
+}
+
+#quem-somos div h4 {
+    font-family: 'Homemade Apple' , cursive;
+    font-size: 28px;
+}
+
+#quem-somos div p {
+    width: 800px;
+    line-height: 28px;
+    font-size: 18px;
+}
+
+#perguntas {
+    width: 70%;
+    display: flex;
+    margin: 0 200px;
+}
+
+#perguntas div {
+    /* border: 1px solid red; */
+    padding: 0 50px;
+}
+
+#perguntas h4 {
+    font-family: 'Homemade apple', cursive;
+    font-size: 28px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    
+}
+
+#perguntas .perguntas-titulos {
+    /* border: 1px solid red; */
+    font-size: 18px;
+    text-align: left;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+#perguntas ol {
+    padding-bottom: 40px;
+    text-align: left;
+}
+
+#perguntas ol li {
+    padding: 18px 0;
+    line-height: 28px;
+    font-size: 16px;
+}
+
+
+footer {
+    background-color: #2b0f2a;
+    display: flex;
+    padding: 80px;
+    gap: 200px;
+    text-align: center;
+}
+
+footer h4 {
+    color: white;
+    margin-bottom: 30px;
+}
+
+footer ul {
+    /* border: 1px solid red;   */
+}
+
+footer ul + a {
+    text-align: center;
+    display: flex;
+    width: 300px;
+    font-size: 20px;
+}
+
+footer div {
+    width: 50%;
+    text-align: center;
+}
+
+footer a {
+    /* border: 1px solid blue; */
+    display: inline-block;
+    width: 150px;
+    align-items: center;
+}
+
+footer img{
+    /* border: 1px solid green; */
+    width: 48px;
+    animation: tada;
+    animation-duration: 3s;
+}
